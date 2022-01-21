@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.container-principal-site{
+    background-image: url('/imagens/elice-moore-E--AUpYXbjM-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.container-principal-site h1{
+    color: #1ed760;
+    font-size: 11.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container-principal-site p{
+    color: #1ed760;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+.container-principal-site > a{
+    height: 48px;
+    width: 214px;
+    margin-top: 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #2941ab;
+    background-color: #1ed760;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.3s;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.container-principal-site > a:hover{
+    transform: scale(1.15);
+}

@@ -1,0 +1,37 @@
+.footer{
+    background-color: black;
+    height: 530px;
+    color: white;
+
+}
+
+.footer .container-logo{
+    height: 40px;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.container-logo img{
+    width: 85%;
+}
+
+.container-items-footer{
+    position: absolute;
+    margin-top: 70px;
+    display: flex;
+    gap: 25px;
+   
+}
+
+.container-items-footer ul{
+    list-style: none;
+}
+
+.container-items-footer li{
+    padding: 10px;
+}
+
+
+
