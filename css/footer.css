@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .footer{
     background-color: black;
     height: 530px;
     color: white;
-
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15.5px;
 }
 
 .footer .container-logo{
     height: 40px;
     width: 150px;
-    margin-left: 100px;
-    margin-top: 70px;
-    position: absolute;
+    margin-top: 50px;
 }
 
 .container-logo img{
@@ -18,20 +20,70 @@
 }
 
 .container-items-footer{
-    position: absolute;
-    margin-top: 70px;
-    display: flex;
-    gap: 25px;
-   
+   display: flex;
 }
 
 .container-items-footer ul{
+    margin-top: 50px;
     list-style: none;
+    margin-left: 50px;
+}
+
+.container-items-footer .title-list{
+    color: darkgrey;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 15px;
 }
 
 .container-items-footer li{
     padding: 10px;
 }
+
+.container-items-footer a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.3s;
+    font-weight: bolder;
+}
+
+.container-items-footer a:hover{
+    color: #1ed760;
+}
+
+.container-icons{
+    display: flex;
+    margin-left: 150px;
+}
+
+.container-icons a{
+    height: 60px;
+    width: 60px;
+  margin-left: 15px;
+}
+
+.icon{
+    background-color: rgb(126, 126, 126);
+    height: 60px;
+    width: 60px;
+    margin-left: 15px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+}
+
+.icon:hover{
+    background-color: #1ed760;
+}
+
+.icon img{
+    width: 70%;
+  
+}
+
 
 
 
