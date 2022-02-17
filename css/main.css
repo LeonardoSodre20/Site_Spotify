@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .container-principal-site{
-    background-image: url('/imagens/elice-moore-E--AUpYXbjM-unsplash.jpg');
+    background-image: url('../imagens/elice-moore-E--AUpYXbjM-unsplash.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
