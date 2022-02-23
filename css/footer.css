@@ -1,6 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+.footer{
+    background-color: black;
+    color: white;
+   height: 400px;
+}
 
+.footer-content{
+  
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.footer-menu{
+    
+    list-style: none;
+    margin: 50 20px;
+    
+}
+
+.socials{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.container-icon-instagram{
+    width: 50px;
+    height: 50px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+   
+}
+
+.container-icon-instagram img{
+    width: 70%;
+}
+
+.container-icon-facebook{
+    width: 50px;
+    height: 50px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.container-icon-facebook img{
+    width: 70%;
+}
+
+.container-icon-twitter{
+    width: 50px;
+    height: 50px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+
+.container-icon-twitter img{
+    width: 70%;
+}
+
+.footer-info-items{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    margin-left: 120px;
+}
+
+.rights{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
 
 
 
